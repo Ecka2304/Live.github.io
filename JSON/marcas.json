@@ -1,0 +1,27 @@
+[
+    {
+        "ID": 1,
+        "nombre": "adidas",
+        "imagen": "https://ams3.digitaloceanspaces.com/graffica/2022/12/Three-Bars-adidas-logo-1.jpg-1024x570.webp"
+    },
+    {
+        "ID": 2,
+        "nombre": "nike",
+        "imagen": "https://cdn.mos.cms.futurecdn.net/786NzPhpXo6G8hkutJkHTM-1200-80.jpg"
+    },
+    {
+        "ID": 3,
+        "nombre": "puma",
+        "imagen": "https://about.puma.com/sites/default/files/styles/dd_text_media/public/media/text-media/m-18-1979-puma-no1-logo.jpg?itok=dEkgOTf5"
+    },
+    {
+        "ID": 4,
+        "nombre": "rebook",
+        "imagen": "https://static.wixstatic.com/media/253a43_34682ff67c8d44e8b3bfa739e723be07~mv2.jpg/v1/fill/w_1500,h_1005,al_c/253a43_34682ff67c8d44e8b3bfa739e723be07~mv2.jpg"
+    },
+    {
+        "ID": 5,
+        "nombre": "under-armound",
+        "imagen": "https://1000logos.net/wp-content/uploads/2021/04/Under-Armour-logo.png"
+    }
+]

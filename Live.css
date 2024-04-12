@@ -1,0 +1,475 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    text-align: center;
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #8B5A9A;
+    padding-top: 25px;
+}
+header .planes-link{
+    color: darkslateblue;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    float: right;
+    height: 50px ;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+header .planes-link:hover{
+    color: rgb(75, 67, 129);
+    background-color: rgb(175, 173, 173);
+}
+.logo{
+    float: left;
+    margin-left: 30px;
+    max-width: 100%;
+}
+.title{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 80px ;
+    margin-top: 10px;
+    margin-right: 118px;
+}
+nav{
+    background-color: #ffffff
+   
+}
+
+.frase{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 20px flex;
+    color: white;
+    max-width: 100%;
+    margin-right: 160px;
+}
+
+#elementos:hover {
+    color: darkslateblue;
+    transition: 1s;
+    background-color: rgb(175, 173, 173);
+}
+.setting-btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #8B5A9A;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 0px 2px rgb(212, 209, 255);
+}
+.bar {
+    width: 50%;
+    height: 2px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 2px;
+}
+.bar::before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    background-color: rgb(126, 117, 255);
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 5px white;
+}
+.bar1::before {
+    transform: translateX(-4px);
+}
+
+.bar2::before {
+    transform: translateX(4px);
+}
+
+.setting-btn:hover .bar1::before {
+    transform: translateX(4px);
+}
+
+.setting-btn:hover .bar2::before {
+    transform: translateX(-4px);
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin : 10px;
+
+}
+
+li{
+    font-family: "Raleway", sans-serif;
+    margin-left: 0px;
+    font-size: 20px;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: medium;
+}
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+}
+#transicion {
+    transition: transform 0.2s ease;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color:black
+}
+#IMG{
+    float: inline-start;
+    margin-left: 25%;
+}
+
+.section{
+    background-color: rgb(73, 73, 73);
+}
+
+
+
+.container{
+    width: calc(70% - 20px);
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.container ul li{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.container ul p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.aside-1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align:left;
+    padding-top: 2%;
+    padding-left: 1%;
+    margin-left: 4.5%;
+    margin-bottom: 0%;
+    margin-right: 0.6%;
+    background-image: url("Purple wallpaper background.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px gray solid;
+}
+aside p {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+.aside-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align:left;
+    padding-left: 1%;
+    margin-left: 4.5%;
+    margin-bottom: 0%;
+    background-image: url("Purple wallpaper background.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px gray solid;
+}
+
+.aside-2 .par-1{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.aside-2 .par-1 .par1{
+    display: inline;
+    margin: 40px;
+}
+.aside-2 .par-2{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.aside-2 .par-2 .par2{
+    display: inline;
+    margin: 40px;
+}
+.aside-2 .par-3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.aside-2 .par-3 .par3{
+    display: inline;
+    margin: 40px;
+}
+
+.aside-2 .art-1 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.aside-2 .art-1 .art3 {
+    display: inline;
+    font-size: 25px;
+}
+.aside-2 .art-2 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.aside-2 .art-2 .art3 {
+    display: inline;
+    margin-bottom: 6px;
+}
+
+
+.clasesEjerc{
+    margin-top: 107px;
+    margin-bottom: 30px;
+}
+#title-ClasesDepo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2{
+    display: block;
+    text-align: center;
+}
+.art3{
+    display: inline;
+    margin-left: 4.2%;
+    text-align: justify;
+    padding-bottom: 2%;
+}
+.art3-img{
+    float: left;
+    padding-right: 0.5%;
+}
+
+.center{
+    text-align: center;
+}
+
+.clasesDeportivas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    object-position: center;
+}
+.clasesDeportivas .depo{
+    display: inline;
+    width: fit-content;
+    height: auto;
+    width: 430px;
+    height: 430px;
+}
+.disciplinas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    object-position: center;
+}
+
+.disciplinas .disci{
+    display: inline-block;
+    width: fit-content;
+    height: auto;
+}
+.disciplinas .disci img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.galeria_imagenes {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-container {
+    flex: 1 1 200px; 
+    margin: 10px; 
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .swiper-wrapper1 img{
+    width: 250px;
+  }
+
+.derechos{
+    margin-bottom: 0;
+    margin-top: 500;
+}
+footer {
+    background-color: #474747;
+    color: #fff;
+    padding: 25px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    clear: both;
+    margin-top: 30px;
+}
+footer img{
+    display: inline-block;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+footer img :hover{
+    background-color: rgb(192, 192, 192);
+}
+
+/* Agragar */
+
+.slider {
+    overflow: hidden;
+  }
+  
+  .slide-container {
+    display: flex;
+  }
+  
+  .slide-container img {
+    width: 45px;
+    height: auto;
+    margin-right: 20px; 
+  }
+
+
+@media(max-width:760px){
+    .logo{
+        height: 115px;
+        width: 115px;
+    }
+    .title{
+        visibility: collapse;
+    }
+    .frase{
+        visibility: collapse;
+    }
+    header{
+        align-items: center;
+    }
+    .aside-1, .aside-2{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .aside-2 ul .par-1 img{
+        display: none;
+    }
+    .aside-2 ul .par-2 img{
+        display: none;
+    }
+    .aside-2 ul .par-3 img{
+        display: none;
+    }
+
+    .aside-2 ul .art-1 img{
+        display: none;
+    }
+    .aside-2 ul .art-2 img{
+        display: none;
+    }
+
+    .aside-2 .center {
+        margin-top: 15px;
+    }
+
+    .aside-2 ul .par-1 *{
+        display: block;
+        text-align: center;
+        margin: 5px
+    }
+    .aside-2 ul .par-2 *{
+        display: block;
+        text-align: center;
+        margin: 5px
+    }
+    .aside-2 ul .par-3 *{
+        display: block;
+        text-align: center;
+        margin: 5px
+    }
+    .aside-2 ul .art-1 *{
+        display: block;
+        text-align: center;
+        margin: 5px
+    }
+    .aside-2 ul .art-2 *{
+        display: block;
+        text-align: center;
+        margin: 5px
+    }
+
+    .aside-2 ul .par-1, .par-2, .par-3, .art-1, .art-2{
+        margin: 10px
+    }
+
+    
+  .marcas .swiper .swiper-wrapper1 {
+        margin-left: 20%;
+  }
+    
+
+
+    footer img{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 20px;
+    }
+}
