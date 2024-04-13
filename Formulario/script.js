@@ -87,7 +87,10 @@ function sumaTotal() {
 }
 
 function limpiarFormulario() {
-  document.formulario.reset();
+  document.forms["Formulario"]["nombre"].value = "";
+  document.forms["Formulario"]["email"].value = "";
+  document.forms["Formulario"]["fnace"].value = "";
+  document.forms["Formulario"]["telefono"].value = "";
 }
 
 function guardarLocal(){
