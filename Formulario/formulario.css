@@ -241,6 +241,19 @@ input[type="radio"]{
     }
 
 
+    #enviar{
+        margin-left: 37%;
+        margin-right: 37%;
+        width: 25%;
+        background-color: #8B5A9A;
+        color: white;
+        padding: 14px 20px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
 .derechos{
     margin-bottom: 0;
     margin-top: 500;
