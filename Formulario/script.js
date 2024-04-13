@@ -87,6 +87,9 @@ function sumaTotal() {
 
   //document.getElementById("Formulario").submit();
 }
+function enviarCorreo(){
+  document.getElementById("Formulario").submit();
+}
 
 function limpiarFormulario() {
   
